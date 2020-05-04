@@ -8,7 +8,11 @@ const Routes: React.FC = () => {
   return (
     <Switch>
       <Route path="/" exact component={Dashboard} name="dashboard" />
-      <Route path="/repository" component={Repository} name="repository" />
+      <Route
+        path="/repository/:repository+"
+        component={Repository}
+        name="repository"
+      />
     </Switch>
   );
 };

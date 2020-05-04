@@ -70,7 +70,8 @@ export const Repositories = styled.div`
     }
 
     div {
-      margin-left: 16px;
+      margin: 0 16px;
+      flex: 1;
 
       strong {
         font-size: 20px;
@@ -98,4 +99,10 @@ export const Repositories = styled.div`
 export const FiChevronRight = styled.button`
   color: #7159c1;
   font-size: 30px;
+`;
+
+export const Error = styled.span`
+  display: block;
+  color: #c53030;
+  margin-top: 8px;
 `;

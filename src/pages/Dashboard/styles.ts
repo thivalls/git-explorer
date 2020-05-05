@@ -108,11 +108,6 @@ export const Repositories = styled.div`
   }
 `;
 
-export const FiChevronRight = styled.button`
-  color: #7159c1;
-  font-size: 30px;
-`;
-
 export const Error = styled.span`
   display: block;
   color: #c53030;

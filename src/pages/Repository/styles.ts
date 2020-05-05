@@ -56,6 +56,20 @@ export const RepoInfo = styled.section`
       color: #737380;
     }
   }
+
+  @media screen and (max-width: 502px) {
+    flex-direction: column;
+    flex: 1;
+
+    img {
+      margin-bottom: 20px;
+      align-self: flex-start;
+    }
+
+    div {
+      margin-left: 0px;
+    }
+  }
 `;
 
 export const DataInfo = styled.div`
@@ -82,6 +96,16 @@ export const DataInfo = styled.div`
         display: block;
         color: #6c6c80;
         margin-left: 2px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 502px) {
+    ul {
+      li {
+        & + li {
+          margin-left: 30px;
+        }
       }
     }
   }
